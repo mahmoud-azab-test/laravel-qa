@@ -3,4 +3,9 @@ php artisan serve
 composer require laravel/ui
 php artisan ui vue --auth
 npm install && npm run dev
-php artisan migrate
+php artisan migrate:refresh
+php artisan migrate:fresh
+php artisan migrate:rollback
+php artisan make:model Models\Question -m
+
+Illuminate\Support\Str

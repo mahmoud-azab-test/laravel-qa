@@ -1,0 +1,16 @@
+echo "# laravel-qa" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/mahmoud-azab-test/laravel-qa.git
+git push -u origin master
+
+
+git remote add origin https://github.com/mahmoud-azab-test/laravel-qa.git
+git branch -M master
+git push -u origin master
+
+
+git branch
+ git checkout -b lesson-2
