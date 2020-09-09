@@ -1,0 +1,6 @@
+composer create-project --prefer-dist laravel/laravel laravel-qa
+php artisan serve
+composer require laravel/ui
+php artisan ui vue --auth
+npm install && npm run dev
+php artisan migrate
