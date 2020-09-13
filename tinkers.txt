@@ -1,0 +1,8 @@
+php artisan tinker
+use Faker\Factory;
+$faker = Factory::create();
+$faker->sentence();
+rtrim($faker->sentence(), ".");
+$faker->paragraphs()
+ $faker->paragraphs(3, true)
+ factory(App\User::class, 4)->create()

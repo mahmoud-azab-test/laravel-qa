@@ -4,3 +4,10 @@ composer require laravel/ui
 php artisan ui vue --auth
 npm install && npm run dev
 php artisan migrate
+php artisan make:model Question
+php artisan migrate:fresh
+php artisan make:factory QuestionFactory
+php artisan migrate:fresh
+php artisan migrate:fresh --seed
+php artisan make:controller QuestionController --resource --model=Question
+php artisan vendor:publish --tag=laravel-pagination
